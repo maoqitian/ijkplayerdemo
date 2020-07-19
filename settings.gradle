@@ -1,0 +1,10 @@
+//include ':ijkplayer-armv7a'
+include ':ijkplayer-exo'
+//include ':ijkplayer-arm64'
+//include ':ijkplayer-armv5'
+//include ':ijkplayer-x86'
+include ':ijkplayer-example'
+include ':ijkplayer-java'
+//include ':ijkplayer-x86_64'
+include ':app'
+rootProject.name = "ijkplayerdemo"
