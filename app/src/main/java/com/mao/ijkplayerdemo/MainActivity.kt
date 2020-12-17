@@ -39,12 +39,12 @@ class MainActivity : AppCompatActivity() {
         //hls
         val mVideoPath3 = "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8"
         //rtsp
-        val mVideoPath4 = "rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov"
+        val mVideoPath4 = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"
 
         mVideoView.setMediaController(mAndroidMediaController)
         mVideoView.setHudView(video_msg)
 
-        editVideoPath.setText(mVideoPath3)
+        editVideoPath.setText(mVideoPath1)
 
 
         btplay.setOnClickListener{
